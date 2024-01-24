@@ -1,4 +1,4 @@
-//Below Data Structure has a getMeadin() function that can be used to find Rolling median of subarray of particular length in an array by appropriatly sliding the array and inserting required elements
+//Below Data Structure has a getMedian() function that can be used to find Rolling median of subarray of particular length in an array by appropriatly sliding the array and inserting required elements
 class DS {
     public:
         multiset<int> s1;
