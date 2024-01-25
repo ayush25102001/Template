@@ -3,6 +3,7 @@ class DS {
     public:
         multiset<int> s1;
         multiset<int> s2;
+        //Maintaining ceil(n/2) elements in S1, adjust acc to Q
         void balance() {
             while(s1.size() > s2.size()) {
                 s2.insert(*(--s1.end()));
